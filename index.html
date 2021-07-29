@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>Respire & Relaxe App</title>
+</head>
+<body>
+    
+    <div class="input">
+        <label>Selecione a respiração</label>
+        <select class="breath-input">
+            <option value="3">3 Respirações</option>
+            <option value="5">5 Respirações</option>
+            <option value="7">7 Respirações</option>
+        </select>
+    </div>
+
+    <div class="circle-wrap">
+        <div class="circle-outline"></div>
+        <div class="circle-progress"></div>
+    </div>
+
+    <p class="breaths">Respirações restantes: <span class="breaths-text">3</span></p>
+
+    <p class="instructions">Você está pronto para começar a respirar?</p>
+
+    <button class="start">Começar</button>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
